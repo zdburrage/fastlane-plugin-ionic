@@ -5,7 +5,7 @@ require 'fastlane/plugin/ionic-conf/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-ionic_conf'
-  spec.version       = Fastlane::IonicConf::VERSION
+  spec.version       = '0.1.3'
   spec.author        = 'Zac Burrage'
   spec.email         = 'zac.burrage@gmail.com'
 

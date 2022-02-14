@@ -1,16 +1,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/ionic/version'
+require 'fastlane/plugin/ionic-conf/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-ionic'
-  spec.version       = Fastlane::Ionic::VERSION
-  spec.author        = 'Jan Piotrowski'
-  spec.email         = 'piotrowski+rubygems@gmail.com'
+  spec.name          = 'fastlane-plugin-ionic-conf'
+  spec.version       = '0.1.1'
+  spec.author        = 'Zac Burrage'
+  spec.email         = 'zac.burrage@gmail.com'
 
   spec.summary       = 'Build your Ionic app'
-  spec.homepage      = "https://github.com/ionic-zone/fastlane-plugin-ionic"
+  spec.homepage      = "https://github.com/zdburrage/fastlane-plugin-ionic"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w[README.md LICENSE]
